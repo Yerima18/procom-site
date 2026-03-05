@@ -21,7 +21,7 @@ export default function BeninBouge() {
           <p className="body-text reveal">
             Bénin Bouge met en lumière les projets structurels, les événements culturels, économiques et sociaux, ainsi que les initiatives locales et les voix qui façonnent le Bénin d&apos;aujourd&apos;hui.
           </p>
-          <a href="#" className="btn btn-outline-light reveal">Découvrir Bénin Bouge →</a>
+          <a href="https://beninbouge.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light reveal">Découvrir Bénin Bouge →</a>
         </div>
         <div className="bb-right">
           <div className="bb-stats-grid reveal">
