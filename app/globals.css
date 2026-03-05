@@ -342,6 +342,39 @@ body::after {
   overflow: hidden;
   background: var(--bg);
 }
+.hero.hero-bg {
+  background: transparent;
+}
+.hero-bg-image {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('/hero-team.png') center center / cover no-repeat;
+  z-index: 0;
+}
+.hero-bg-overlay {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(11, 17, 33, 0.88) 0%,
+    rgba(11, 17, 33, 0.75) 40%,
+    rgba(27, 77, 219, 0.55) 100%
+  );
+  z-index: 1;
+}
+.hero.hero-bg .hero-content { color: #fff; }
+.hero.hero-bg .hero-badge {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.9);
+}
+.hero.hero-bg .hero-badge::before { background: #fff; }
+.hero.hero-bg h1 { color: #fff; }
+.hero.hero-bg h1 em { color: #93b4ff; }
+.hero.hero-bg .hero-sub { color: rgba(255,255,255,0.75); }
+.hero.hero-bg .hero-metrics { border-top-color: rgba(255,255,255,0.15); }
+.hero.hero-bg .hero-metric h3 { color: #93b4ff; }
+.hero.hero-bg .hero-metric p { color: rgba(255,255,255,0.6); }
 .hero-pattern {
   position: absolute; top: 0; right: 0;
   width: 50%; height: 100%;
