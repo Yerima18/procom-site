@@ -231,7 +231,7 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <div className="hero-visual-frame"></div>
-          <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=800&h=1000&fit=crop" alt="Équipe PROCOM en action" loading="lazy" />
+          <img src="/hero-team.png" alt="Équipe PROCOM en action" loading="lazy" />
         </div>
       </section>
 
@@ -244,7 +244,7 @@ export default function Home() {
 
       <section className="about" id="about">
         <div className="about-images reveal">
-          <div className="about-img-main"><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=700&h=500&fit=crop" alt="Équipe créative PROCOM" loading="lazy" /></div>
+          <div className="about-img-main"><img src="/hero-team.png" alt="Équipe créative PROCOM" loading="lazy" /></div>
           <div className="about-img-secondary"><img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&h=350&fit=crop" alt="Production digitale" loading="lazy" /></div>
           <div className="about-badge-float"><h4>7+</h4><p>ans d&apos;expertise</p></div>
         </div>
